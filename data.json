@@ -1,0 +1,49 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "project_name": "Random Quote Generator",
+        "description": "This project app takes an array filled with object quotes and selects one random quote to be displayed in the browser.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://gironalex.github.io/A-Random-Quote-Generator/",
+        "github_link": "https://github.com/gironalex/A-Random-Quote-Generator",
+        "image_url": ["public/images/unit1/mainShot.png", "public/images/unit1/otherShots1.png", "public/images/unit1/otherShots2.png", "public/images/unit1/otherShots3.png"]
+      },
+      {
+        "id": 2,
+        "project_name": "Data Pagination & Filtering",
+        "description": "In this project, I enhanced the usability of a web page by writing JavaScript to dynamically divide a long list of items into pages",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://gironalex.github.io/Data-Pagination-and-Filtering/",
+        "github_link": "https://github.com/gironalex/Data-Pagination-and-Filtering",
+        "image_url": ["public/images/unit2/mainShot2.png", "public/images/unit2/otherShots2_1.png", "public/images/unit2/otherShots2_2.png", "public/images/unit2/otherShots2_3.png"]
+      },
+      {
+        "id": 3,
+        "project_name": "Interactive Form",
+        "description": "This project involves the creation of a web form that is engaging, interactive & easy to use",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://gironalex.github.io/Interactive-Form/",
+        "github_link": "https://github.com/gironalex/Interactive-Form",
+        "image_url": ["public/images/unit3/mainShot3.png", "public/images/unit3/otherShots3_1.png", "public/images/unit3/otherShots3_2.png", "public/images/unit3/otherShots3_3.png"]
+      },
+      {
+        "id": 4,
+        "project_name": "Object Oriented Game Show App",
+        "description": "Phrase Hunter, is a game that uses JS & OOP to select a random hindden phrase. A player tries to guess the phrase by selecting individual letters from the onscreen keyboard",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://gironalex.github.io/OOP-Game-Show-App/",
+        "github_link": "https://github.com/gironalex/OOP-Game-Show-App",
+        "image_url": ["public/images/unit4/mainShot4.png", "public/images/unit4/otherShots4_1.png", "public/images/unit4/otherShots4_2.png", "public/images/unit4/otherShots4_3.png"]
+      },
+      {
+        "id": 5,
+        "project_name": "Public API Request",
+        "description": "Using JavaScript, I created an employee directory by communicating with a third-party API",
+        "technologies": ["HTML", "CSS", "JavaScript", "API"],
+        "live_link": "https://gironalex.github.io/Public-API-Requests/",
+        "github_link": "https://github.com/gironalex/Public-API-Requests",
+        "image_url": ["public/images/unit5/mainShot5.png", "public/images/unit5/otherShots5_1.png", "public/images/unit5/otherShots5_2.png", "public/images/unit5/otherShots5_3.png"]
+      }
+    ]
+}
