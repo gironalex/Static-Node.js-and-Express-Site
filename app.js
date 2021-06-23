@@ -44,23 +44,20 @@ app.get('/project/:id', (req, res, next) => {
 app.use((req, res, next) => {
   const err = new Error('The resource you are looking for does not exist.')
   err.status = 404;
-  res.render('not-found');
+  res.render('not-found', { err } );
   console.log(`Error Code ${err.status}: ${err.message}`);
 });
 
-// Global Error Handler
+// Globar Error Handler
+// Note, part of this code snip is being referenced from https://expressjs.com/en/guide/error-handling.html
 app.use((err, req, res, next) => {
-    err ? console.log('Global error handler called', err) : null;
-    
-    if (err.status === 404) { 
-      res.status(404).render('not-found', err);
-      console.log(`Error Code ${err.status}: ${err.message}`); 
-    } else {
-      err.message = `Oops! It looks like something went wrong on the server`;
-      res.status(err.status).render('error', err);
-      console.log(`Error Code ${err.status}: ${err.message}`);
+    if (res.headersSent) {
+      return next(err)
     }
-});
+    res.status(500);
+    res.render('error', { err });
+    console.log(`Error Code ${err.status}: ${err.message}`);
+})
 
 //--------------------------
 // Listening For Connections

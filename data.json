@@ -7,7 +7,10 @@
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "https://gironalex.github.io/A-Random-Quote-Generator/",
         "github_link": "https://github.com/gironalex/A-Random-Quote-Generator",
-        "image_url": ["public/images/unit1/mainShot.png", "public/images/unit1/otherShots1.png", "public/images/unit1/otherShots2.png", "public/images/unit1/otherShots3.png"]
+        "image_urls": ["/static/images/unit1/mainShot.png", 
+                       "/static/images/unit1/otherShots1.png", 
+                       "/static/images/unit1/otherShots2.png", 
+                       "/static/images/unit1/otherShots3.png"]
       },
       {
         "id": 2,
@@ -16,7 +19,10 @@
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "https://gironalex.github.io/Data-Pagination-and-Filtering/",
         "github_link": "https://github.com/gironalex/Data-Pagination-and-Filtering",
-        "image_url": ["public/images/unit2/mainShot2.png", "public/images/unit2/otherShots2_1.png", "public/images/unit2/otherShots2_2.png", "public/images/unit2/otherShots2_3.png"]
+        "image_urls": ["/static/images/unit2/mainShot2.png",
+                       "/static/images/unit2/otherShots2_1.png",
+                       "/static/images/unit2/otherShots2_2.png",
+                       "/static/images/unit2/otherShots2_3.png"]
       },
       {
         "id": 3,
@@ -25,7 +31,10 @@
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "https://gironalex.github.io/Interactive-Form/",
         "github_link": "https://github.com/gironalex/Interactive-Form",
-        "image_url": ["public/images/unit3/mainShot3.png", "public/images/unit3/otherShots3_1.png", "public/images/unit3/otherShots3_2.png", "public/images/unit3/otherShots3_3.png"]
+        "image_urls": ["/static/images/unit3/mainShot3.png",
+                       "/static/images/unit3/otherShots3_1.png",
+                       "/static/images/unit3/otherShots3_2.png",
+                       "/static/images/unit3/otherShots3_3.png"]
       },
       {
         "id": 4,
@@ -34,16 +43,22 @@
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "https://gironalex.github.io/OOP-Game-Show-App/",
         "github_link": "https://github.com/gironalex/OOP-Game-Show-App",
-        "image_url": ["public/images/unit4/mainShot4.png", "public/images/unit4/otherShots4_1.png", "public/images/unit4/otherShots4_2.png", "public/images/unit4/otherShots4_3.png"]
+        "image_urls": ["/static/images/unit4/mainShot4.png",
+                       "/static/images/unit4/otherShots4_1.png",
+                       "/static/images/unit4/otherShots4_2.png",
+                       "/static/images/unit4/otherShots4_3.png"]
       },
       {
         "id": 5,
-        "project_name": "Public API Request",
+        "project_name": "Static API Request",
         "description": "Using JavaScript, I created an employee directory by communicating with a third-party API",
         "technologies": ["HTML", "CSS", "JavaScript", "API"],
-        "live_link": "https://gironalex.github.io/Public-API-Requests/",
-        "github_link": "https://github.com/gironalex/Public-API-Requests",
-        "image_url": ["public/images/unit5/mainShot5.png", "public/images/unit5/otherShots5_1.png", "public/images/unit5/otherShots5_2.png", "public/images/unit5/otherShots5_3.png"]
+        "live_link": "https://gironalex.github.io//static-API-Requests/",
+        "github_link": "https://github.com/gironalex//static-API-Requests",
+        "image_urls": ["/static/images/unit5/mainShot5.png",
+                       "/static/images/unit5/otherShots5_1.png",
+                       "/static/images/unit5/otherShots5_2.png",
+                       "/static/images/unit5/otherShots5_3.png"]
       }
     ]
 }
