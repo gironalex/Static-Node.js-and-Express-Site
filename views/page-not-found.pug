@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  div.container
+    h1= `${err.status} - Page Not Found`
+    h2= `${err.message}`
+    p= `Click "Back" to return`
+
+    nav.nav
+      a(href='/')
+        span &larr;
+        |  Back

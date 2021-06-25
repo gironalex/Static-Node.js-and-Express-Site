@@ -119,7 +119,8 @@ nav a {
   font-size: 13px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #555; 
+  color: #4169e1;
+  opacity: .7; 
 }
 
 nav a span {
@@ -296,8 +297,9 @@ nav a span {
   max-width: 255px;
   margin: auto 0 5px 0;
   padding: 0.85em 1em;
-  background-color: #333;
+  background-color: #4169e1;
   border: 1px solid transparent;
+  opacity: .7;
 }
 
 
@@ -361,4 +363,55 @@ nav a span {
   .inner-wrapper {
     max-width: 1200px;
   }
+}
+
+/* Added Features */
+.cell:hover {
+  box-shadow: 15px 15px #4169e1;
+  border-radius: 25px;
+}
+
+.cell h5 {
+  text-align: center;
+}
+
+.btn-link {
+  border-radius: 25px;
+}
+.btn-link:hover {
+  opacity: 1;
+}
+
+.thumbnail {
+  border-radius: 25px;
+}
+
+ul li {
+  list-style-type: square;
+}
+
+nav a:hover {
+  opacity: 1;
+}
+
+.dev-intro-box a {
+  color: rgb(153, 153, 153);
+  opacity: .7;
+}
+
+.dev-intro-box a:hover {
+  opacity: 1;
+}
+
+.portfolio-intro {
+  background-color: rgb(255, 255, 255);
+}
+
+.projects-box {
+  background-color: rgb(255, 255, 255);
+}
+
+.cell {
+  border-radius: 25px;
+  background-color: rgb(245, 245, 245);
 }

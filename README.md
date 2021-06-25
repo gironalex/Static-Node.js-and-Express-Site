@@ -25,3 +25,22 @@ How will this be done?
   * Node.js
 
 # Added Features
+  1. CSS - cell class
+    * On hover, shadow boxes will appear
+    * Added border radius
+    * On h5 child element, the text has been aligned to the center
+  
+  2. CSS - btn-link class
+    * On hover, fade in effect on buttons
+    * Added border radius
+
+  3. CSS - ul li children elements
+    * Changed them from circle to squares
+
+  4. CSS - nav a elements
+    * Changed color to royal blue
+    * On hover, fade in effect
+
+  5. CSS - .portfolio-intro, .projects-box, and .cell
+    * Changed background color to rgb (255, 255, 255) for the first 2 classes
+    * Changed background color to rgb (245, 245, 245) for the .cell class

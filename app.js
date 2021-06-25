@@ -44,7 +44,7 @@ app.get('/project/:id', (req, res, next) => {
 app.use((req, res, next) => {
   const err = new Error('The resource you are looking for does not exist.')
   err.status = 404;
-  res.render('not-found', { err } );
+  res.render('page-not-found', { err } );
   console.log(`Error Code ${err.status}: ${err.message}`);
 });
 
