@@ -33,8 +33,8 @@ app.get('/about', (req, res) => {
 // Project Pages
 app.get('/project/:id', (req, res, next) => {
     const projectId  = req.params.id;
+    const otherImages = projects[projectId-1].image_urls.slice(1);
     const project = projects.find( ({ id }) => id === +projectId );
-    const otherImages = projects[projectId].image_urls.slice(1);
     project ? res.render('project', { project, otherImages } ) : next();
 });
 
