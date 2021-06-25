@@ -50,13 +50,9 @@ app.use((req, res, next) => {
 });
 
 // Globar Error Handler
-// Note, part of this code snip is being referenced from https://expressjs.com/en/guide/error-handling.html
 app.use((err, req, res, next) => {
-    if (res.headersSent) {
-      return next(err)
-    }
-    res.status(500);
-    res.render('error', { err });
+    err.status = 500;
+    res.status(500).render('error', { err });
     console.log(`Error Code ${err.status}: ${err.message}`);
 })
 
