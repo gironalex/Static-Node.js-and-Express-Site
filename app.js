@@ -34,7 +34,8 @@ app.get('/about', (req, res) => {
 app.get('/project/:id', (req, res, next) => {
     const projectId  = req.params.id;
     const project = projects.find( ({ id }) => id === +projectId );
-    project ? res.render('project', { project }) : next();
+    const otherImages = projects[projectId].image_urls.slice(1);
+    project ? res.render('project', { project, otherImages } ) : next();
 });
 
 //---------------
